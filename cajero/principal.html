@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="cuenta.js"></script>
+</head>
+<body>
+    <div id="contenedor">
+		
+		<div class="top">
+			<hr>
+			<h2>Bienvenido a su cuenta</h2>
+			<hr>
+		</div>
+
+        <div class="principal">
+            <p>Tu saldo es de $<span id="dinero"></span> pesos</p>
+
+            <h2>¿Que movimiento quiere realizar?</h2>
+        </div>
+
+        <form action="">
+            <input type="button" value="depositar" name="deposito" onclick="ingresar()">
+
+            <input type="button" value="retirar" name="retiro" onclick="retirar()">
+
+            <input type="button" value="salir" name="salir" onclick="regresar()">
+        </form>
+
+	</div>
+</body>
+</html>
